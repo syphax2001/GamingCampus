@@ -1,0 +1,260 @@
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url("/assets/police/FontsFree-Net-Montserrat-Medium.ttf");
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    overflow-x: hidden;
+    font-family: "Montserrat-Medium", sans-serif;
+    font-weight: bold;
+
+}
+
+/********** navbar ****************/
+.menu-btn {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .btn-line {
+    width: 30px;
+    height: 3px;
+    background: black;
+    margin: 5px;
+  }
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    text-transform: uppercase;
+
+}
+
+nav ul {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+nav ul li{
+    text-align: center;
+}
+nav ul li:first-child{
+    color: purple;
+    border-top: 2px solid purple;
+}
+#language{
+    border-radius: 24px;
+    border: 1px solid white;
+    width: auto;
+    text-align: center;
+    height: auto;
+    background: rgba(150,148,148,39%);
+}
+/********** header ****************/
+header {
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: url("/assets/img/bg.jpg")center/cover;
+    color: white;
+    text-transform: uppercase;
+}
+
+header .main-header {
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+}
+header .main-header #content h1{
+    text-align: center;
+}
+header .main-header #logo{
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .main-header #logo img{
+    height: 100%;
+}
+header .main-header #content{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+ button{
+    text-transform: uppercase;
+    color: white;
+    background: none;
+    border: 1px solid white;
+    width: 40%;
+    height: 20%;
+    transition-duration: 0.4s;
+
+}
+ button:hover {
+    background-color: gray;
+    color: white;
+  }
+/*********** header-text ***************/
+.header-text{
+    height: 17vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.header-text p{
+width: 60%;
+}
+
+/************ icon-part ****************/
+.icon-part{
+    background: rgb(14, 13, 13);
+    color: white;
+    height: 75vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-part .icon-part-container{
+     width: 70%;
+    height: 73%;
+    display: flex;
+    justify-content: space-around;
+}
+.icon-part .icon-part-container .list-icon-part{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon-part .icon-part-container .list-icon-part button{
+    background: none;
+    color: white;
+    border: 1px solid white;
+    width: 130px;
+    height: 30px;
+}
+/****************news-part**********************/
+.news-part{
+    height: 100vh;
+    background: rgb(245, 240, 240);
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    justify-content: space-evenly;
+}
+.news-part .header-news{
+
+    width: 70%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    
+}
+.news-part .header-news .left-part{
+    width: 70%;
+}
+.news-part .header-news .left-part h2{
+    text-transform: uppercase;
+}
+.news-part .header-news .right-part button{
+     width: 140px;
+    height: 40px;
+    background: none;
+}
+.news-part .main-news{
+    width: 70%;
+    height: 79%;
+}
+.news-part .main-news .main-news-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+ 
+}
+.news-part .main-news .main-news-container .main-news-container-content{
+    width: 27%;
+     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+ .news-part .main-news .main-news-container .main-news-container-content .mn-pic img{
+    width: 100%;
+ }
+ /*****************contact******************/
+ .contact{
+    height: 70vh;
+     display: flex;
+    justify-content: center;
+ }
+ .contact .contact-container{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+ }
+ .contact .contact-container .contact-list{
+    display: flex;
+    justify-content: space-between;
+    height: 55%;
+ }
+ .contact .contact-container .contact-list .list{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+ }
+ .contact .contact-container .contact-list .list h5{
+    text-transform: uppercase;
+ }
+ 
+.contact .contact-medias{
+    display: flex;
+    height: 27%;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact .contact-medias .medias-text{
+width: 25%;
+}
+.contact .contact-medias .medias-logos{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    background: black;
+    color: white;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
