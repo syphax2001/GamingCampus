@@ -5,7 +5,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://https://syphax2001.github.io/GamingCampus/">
+    <a href="https://syphax2001.github.io/GamingCampus/">
       Demo
     </a>
     <span> | </span>
